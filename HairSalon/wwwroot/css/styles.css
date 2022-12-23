@@ -10,10 +10,15 @@ ul {
 
 body{
   background-color: #B8D8D8;
-  color: #785964
+  color: #785964;
+  font-family: fantasy;
 }
 
 .pic{
   height: 400px;
   width: 400px;
+}
+
+a{
+  color: #FA8072;
 }
