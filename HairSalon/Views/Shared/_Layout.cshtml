@@ -10,7 +10,8 @@
 </head>
 
 <body class="d-flex flex-column align-items-center justify-content-center p-4">
-  <div class="jumbotron p-4 text-center shadow-lg bg-white " id="jumb">
+  @await Html.PartialAsync("Navbar")
+  <div class="jumbotron p-4 text-center shadow-lg bg-white ">
     @RenderBody()
   </div>
 </body>
