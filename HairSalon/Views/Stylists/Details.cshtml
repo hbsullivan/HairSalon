@@ -20,7 +20,7 @@ else
   <ul>
     @foreach (Client client in Model.Clients)
     {
-      <li>model.clients.name</li>
+      <li>@Html.DisplayFor(model => client.Name)</li>
     }
   </ul>
 }
