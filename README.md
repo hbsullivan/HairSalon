@@ -20,7 +20,7 @@ _This program allows for the user to keep track of their stylists, and all the c
 
 ## Setup/Installation Requirements
 
-# Local copy of database
+### Local copy of database
 
 * _Clone the repo from github_
 * _Open MySQL workbench_
@@ -30,7 +30,7 @@ _This program allows for the user to keep track of their stylists, and all the c
 * _Click 'New' and name the new database 'henry_sullivan'_
 * _Click 'Start Import'_
 
-# Run project
+### Run project
 * _Navigate to the HairSalon directory_
 * _Create a file called ```appsettings.json``` _
 * _Within the newly created file add the following code:_
@@ -45,7 +45,7 @@ _This program allows for the user to keep track of their stylists, and all the c
 * _Also make sure to add ```bin```, ```obj```, and ```appsettings.json``` to your ```.gitignore``` file_
 * _Install all dependencies with ```dotnet restore```_
 * _Enter the dotnet watch run command:_
-  ```% dotnet watch run```
+  ```dotnet watch run```
 
 ## Known Bugs
 
