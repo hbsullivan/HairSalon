@@ -7,8 +7,8 @@
 
 <h2>Stylist Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h3>
-<h4>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h4>
+<h4>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h4>
+<p>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</p>
 
 @if (Model.Clients.Count == 0)
 {
@@ -16,11 +16,11 @@
 }
 else
 {
-  <h4>Clients:</h4>
+  <h5 class="clients">Clients:</h5>
   <ul>
     @foreach (Client client in Model.Clients)
     {
-      <li>@Html.DisplayFor(model => client.Name)</li>
+      <li class="bullet">@Html.DisplayFor(model => client.Name)</li>
     }
   </ul>
 }

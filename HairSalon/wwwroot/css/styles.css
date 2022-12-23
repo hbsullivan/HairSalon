@@ -1,0 +1,19 @@
+ul {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+.hair{
+  font-size: larger;
+}
+
+body{
+  background-color: #B8D8D8;
+  color: #785964
+}
+
+.pic{
+  height: 400px;
+  width: 400px;
+}
